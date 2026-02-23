@@ -18,9 +18,7 @@ export const updateTask = (id) => {
 }
 
 export const fetchTodo = () => {
-    console.log('WIN')
     return async function (dispatch, getState) {
-        console.log('IN HERE')
         const response = await fetch("https://jsonplaceholder.typicode.com/todos/1") // Promise
         const task = await response.json()
         // Perform Asynchronous Tasks Here

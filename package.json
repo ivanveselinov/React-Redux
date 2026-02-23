@@ -15,10 +15,12 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
     "immer": "^11.1.4",
     "lodash": "^4.17.23",
     "prettier": "^3.8.1",
     "redux": "^5.0.1",
+    "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^3.1.0"
   }
 }
